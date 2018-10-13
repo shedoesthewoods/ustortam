@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ffe6f0;
+    color: #330014; /*yazının rengi*/
+}
+
+h1{
+    margin-bottom: 20px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+p{
+    background-color: #ffcce6;
+    width: 95%;
+    height: 100px;
+    color: #330014; /*yazının rengi*/
+    overflow: auto;
+    text-align: left;
+}
+
+.container{
+    width: 100%;
+}
+
+#baslik1{
+	background-color: #e6e6ff;
+}
+
+#baslik2{
+	background-color: #ccccff;
+}
+
+#baslik3{
+	background-color: #b3b3ff;
+}
+
+#baslik1, #baslik2, #baslik3{
+    border: 1px #00004d;
+    width: 40%;
+    height: 15%;
+    top: 0px;
+    right: 0px;
+    position: absolute;
+    text-align: center;
+}
+
+/*masaüstü*/
+@media (min-width: 992px) {
+    .col-lg-1, .col-lg-2, .col-lg-3{
+        border: 1px solid #660000;
+        width: 30%;
+  	    background-color: #ffb3d9;
+        float: left;
+        margin: 1.5%;
+        padding-left: 15px;
+ 	    padding-top: 10px;
+        position: relative;
+    }
+}
+
+/*tablet*/
+@media (min-width: 768px) and (max-width: 992px) {
+    .col-md-1, .col-md-2, .col-md-3{
+        border: 1px solid #660000;
+  	    float: left;
+        background-color: #ffb3d9;
+        margin: 2%;
+        padding-left: 20px;
+ 	    padding-top: 10px;
+        position: relative;
+    }
+
+    .col-md-1, .col-md-2 {
+        width: 46%;
+    }
+
+    .col-md-3 {
+        width: 96%;
+    }
+}
+
+/*telefon*/
+@media (max-width: 768px){
+    .col-lig-1, .col-lig-2, .col-lig-3{
+        border: 1px solid #660000;
+        width: 98.5%;
+        background-color: #ffb3d9;
+        float:left;
+        padding: 8px;
+        margin: 1%;
+        position: relative;
+    }
+}
