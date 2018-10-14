@@ -73,11 +73,9 @@ p{
  	    padding-top: 10px;
         position: relative;
     }
-
     .col-md-1, .col-md-2 {
         width: 46%;
     }
-
     .col-md-3 {
         width: 96%;
     }
